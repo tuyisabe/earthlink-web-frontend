@@ -1,0 +1,55 @@
+/* src/styles/whoweare.css */
+.image1 {
+  width: 400px;
+  position: relative;
+  z-index: 2;
+  right: 25%;
+  margin-top: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.image2 {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 900px) {
+  .image1 {
+    width: 300px;
+    right: 0;
+    top: 200px;
+    transform: translate(0, 0);
+  }
+
+  .image2 {
+    width: 300px;
+    right: 0;
+    top: 200px;
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 600px) {
+  .image1,
+  .image2 {
+    width: 300px;
+    position: relative;
+    top: 0;
+    transform: translate(0, 0);
+    margin-bottom: 1rem;
+  }
+
+  .image2 {
+    margin-left: 1rem;
+  }
+}

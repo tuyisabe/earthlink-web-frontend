@@ -1,0 +1,13 @@
+/* team.css */
+.team-avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .team-card {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
